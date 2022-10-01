@@ -325,11 +325,9 @@ letter-spacing: 0.1rem;
     left: 20%;
   }
 #inputfield{
-  min-width: 40em;
   width: 100vw;
   padding-left: 30px;
   padding-right: 30px;
-  margin-left: 1px;
   margin-bottom: 6em;
 }
 #right-section{
