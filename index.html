@@ -17,35 +17,38 @@
   </style>
 </head>
 <body>
+<main>
 
-  <main>
 
 <!-- left -->
 
   <!-- left background -->
   <div id="left-section">
-    <img id="left-img" src="images/bg-main-desktop.png" alt="">
+    <img id="left-img" src="images\bg-main-desktop.png" alt="">
 
     <!-- absolute card front -->
-    <img src="images/bg-card-front.png" alt="front" id="front">
     <div id="card-front">
       <div id="logo">
         <div id="full-logo"></div>
         <div id="empty-logo"></div>  
       </div>
-      <p id="number">1234 5678 9123 0000</p>
+      <h1 id="number">1234 5678 9123 0000</h1>
       <div id="name-date">
         <p id="name-card">Jane Appleseed</p>
         <p id="date">00/00</p>
       </div>
+      <img src="images\bg-card-front.png" alt="front" id="front">
     </div>
 
     <!-- absolute card back -->
-    <img src="images/bg-card-back.png" alt="back" id="back">
     <div id="card-back">
       <p id="cvc-card">000</p>
+      <img src="images\bg-card-back.png" alt="back" id="back">
     </div>
   </div>
+
+    <!-- gap -->
+    <div id="gap"></div>
 
   <!-- input field -->
   <div id="inputfield">
@@ -88,10 +91,8 @@
       <button id="continue">Continue</button>
     </div>
   </template>
-  
-  </main>
 
-  
+</main>
 <script src="app.js"></script>
 </body>
 </html>
