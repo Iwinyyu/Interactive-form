@@ -291,16 +291,18 @@ letter-spacing: 0.1rem;
     justify-content: center;
     height: 100vh;
     min-height: 70em;
+    max-height: 100em;
+    gap: 8em;
   }
 #left-section{
-  height: 30vh;
+  height: 28em;
 }
   #left-img{
     content:url("images/bg-main-mobile.png");
     width: 100vw;
     height: 100%;
     min-width: 40em;
-    min-height: 23em;
+    min-height: 100%;
   }
   #card-front{
     width: 30em;
