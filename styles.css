@@ -284,18 +284,21 @@ letter-spacing: 0.1rem;
 @media screen and (max-width: 35em) {
 
   main{
-    min-width: 40em;
+    min-width: 100vw;
     font-size: 10px;
     width: 100vw;
     flex-direction: column;
     justify-content: center;
     height: 100vh;
-    min-height: 70em;
+    min-height: 75em;
     max-height: 100em;
     gap: 8em;
   }
 #left-section{
   height: 28em;
+  min-height: 28em;
+  position: absolute;
+  top: 0;
 }
   #left-img{
     content:url("images/bg-main-mobile.png");
@@ -319,7 +322,7 @@ letter-spacing: 0.1rem;
     z-index: 1;
     width: 30em;
     top: 15%;
-    right: 5%;
+    left: 20%;
   }
 #inputfield{
   min-width: 40em;
